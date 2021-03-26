@@ -1,0 +1,510 @@
+h1,h2,h3,h4,h5,h6,a{
+    font-family: 'Montserrat', sans-serif;
+   
+}
+p,span{
+    font-family: 'Open Sans', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+/* header css start */
+
+header{
+    background-color: #ebebeb;
+}
+header .header-address {
+	padding-top: 0.5rem;
+	text-align: start;
+}
+header .header-address span{
+    margin-right: 0.3rem;
+}
+header .header-address p {
+	position: relative;
+	text-align: center;
+	display: inline-block;
+}
+header .header-address p::before {
+	content: "\f3c5";
+	font-weight: 600;
+	font-family: "Font Awesome 5 Free";
+	position: absolute;
+	top: 0;
+	left: -17px;
+}
+
+.header-social-icon{}
+.header-social-icon ul {
+	list-style: none;
+	padding-left: 0;
+}
+.header-social-icon ul li{
+    display: inline-block;
+}
+.header-social-icon ul li a {
+	padding: 0px 10px;
+	display: block;
+	/* line-height: 11px; */
+	/* display: flex; */
+	/* align-items: center; */
+	color: black;
+	padding-top: 9px;
+	font-size: 15px;
+}
+.header-social-icon ul li a:hover{} 
+
+.logo img{
+    width: 180px;
+}
+
+.header-number{
+    border-right: 1px solid #cccc;
+}
+.header-number2{
+    border: none !important;
+}
+.header-number{}
+.header-number p{
+    margin-bottom: 5px;
+}
+.header-number strong{}
+.header-btn .qutat{}
+
+
+/* header-menu css start */
+.menu-item{
+    position: relative;
+}
+.menu-item ul{
+    list-style-type:none;
+}
+.menu-item ul li{
+    padding-left: 0px;
+    display: inline-block;
+}
+.menu-item ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 0px 25px;
+    font-weight: 700;
+    color: white;
+    position: relative;
+    transition: .4s;
+    font-size: 15px;
+}
+.menu-item ul li a:hover{
+   color: orange;
+}
+/* MENUITEM? */
+
+
+.menu-item ul li{
+    position: relative;
+}
+.menu-item ul li ul{
+    position:absolute;
+    left: -15%;
+    top: 200%;
+    z-index: 1;
+    width: 230px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.menu-item ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+.menu-item ul li ul li {
+    display: block;
+    background-color: white;
+    padding: 0px 22px;
+}
+.menu-item ul li ul li a {
+    display: block;
+    color: black;
+    border-bottom: 1px solid #ccc;
+    padding: 12px 0px;
+}
+.menu-item > ul >  li:nth-child(-n+6) > a::before{
+    content: "\f107";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    position: absolute;
+    right: 11px;
+    top: 2px;
+}
+/* about usCSS START */
+
+.about-us{}
+.about-us h4{}
+
+.about-content{}
+.about-content h4{}
+.about-content p{}
+.about-icon-content{
+}
+.about-icon-content span{
+    font-size: 36px;
+    color: orange;
+    margin-right: 12px;
+}
+.about-icon-content h6{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* CARUSELC ONTECT CSS START */
+
+
+
+.caruse{
+    position: relative;
+    margin-bottom: 50px;
+}
+.carusel-content{
+    position: absolute;
+    top: 40%;
+    left: 27%;
+    opacity: 1;
+    transform: 1s;
+    animation-name:drop-menu ;
+    animation-delay:2s ;
+    animation-direction:normal;
+    animation-duration:3s;
+    animation-iteration-count: infinite;
+}
+
+/* construction */
+.construction-footer {
+	max-width: 1200px;
+	height: 100px;
+	padding: 30px  0px;
+	background-color: orange;
+	margin: auto;
+	position: relative;
+	top: -100px;
+}
+
+/* number section css start */
+.number-section{}
+
+/* what-we-do */
+.we-do-what {}
+.we-do-what h2{}
+.we-do-what h1{}
+.we-do-content{
+    margin-bottom: 25px;
+}
+.we-do-content .we-do-img{
+    width: 130px;
+    margin-right: 1rem;
+}
+
+.we-do-content .we-do-text{}
+.img-control img{
+    display: block;
+    width: 400px;
+    margin: auto;
+}
+
+.we-do-content .we-do-text{}
+.we-do-content .we-do-text h3{}
+.we-do-content .we-do-text p{
+    font-size: 15px;
+margin-top: 11px;
+font-weight: 300;
+}
+
+/* 
+project css stat */
+.project{}
+.project h2{}
+.project h1{}
+.recent-project{}
+.recent-project ul{
+    list-style: none;
+    display: flex;
+    border-bottom: 3px solid orange;
+}
+.recent-project ul li{
+    flex-grow: 1;
+  
+}
+.recent-project ul li:nth-child(1) a{
+    background: orange;
+    
+    padding: 9px 20px;
+    display: inline-block;
+    margin-left: -32px;
+  
+}
+.recent-project ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0px;
+    font-size: 15px;
+}
+.recent-project ul li:nth-child(1) a{
+    
+}
+/* .recent-project ul li a:hover{
+    background: orange;
+} */
+
+/* projectimage? */
+.project-images{
+   background: #f8f9fa;
+   padding: 90px 0px;
+   overflow: hidden;
+}
+.project-image{
+    position: relative;
+}
+.project-image .project-image-content{
+    position: absolute;
+    top: 26%;
+    left: 8%;
+    z-index:99;
+    opacity: 0;
+    visibility: hidden;
+}
+.project-image h2{}
+.project-image h1{}
+
+.project-image{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image1{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image2{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image3{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image4{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image5{
+    content: "";
+    background-image: url("https://demo.themefisher.com/constra/images/projects/project6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 173px 0px;
+}
+.project-image span{
+    display: inline-block;
+color: white;
+background: orange;
+width: 50px;
+height: 50px;
+line-height: 50px;
+text-align: center;
+position: absolute;
+top: 0;
+right: 0;
+opacity: 0;
+}
+.project-image::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(68, 48, 48,.5);
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+}
+.project-image:hover .project-image-content{
+    opacity: 1;
+    visibility: visible;
+}
+.project-image:hover span{
+    opacity: 1;
+    visibility: visible;
+}
+.project-image:hover::after{
+    opacity: 1;
+    visibility: visible;
+}
+
+/* testimonial css start? */
+.testimonial{}
+.testimonial .client{
+    border: 1px solid #ccc;
+padding: 28px;
+margin-bottom: 4px;
+margin-top: 33px;
+}
+.quotation{}
+.quotation .quotation-text{
+    margin: 43px 0px;
+}
+.quotation .quotation-text p{
+    position: relative;
+margin-left: 74px;
+font-style: italic;
+font-weight: 500;
+font-size: 20px;
+}
+.quotation .quotation-text p:before{
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    left: -60px;
+    top: 0;
+    font-weight: 600;
+    position: absolute;
+    font-size: 28px;
+    color: orange;
+}
+.client{}
+.testimonial .quotation-footer{}
+.quotation-footer{}
+.quotation-footer .quotation-img{}
+.quotation-footer .quotation-img img{}
+.quotation-footer .quotation-info{
+    position: relative;
+    top: 14px;
+}
+.quotation-footer .quotation-info h1{}
+.quotation-footer .quotation-info p{}
+
+
+.color-part{} 
+.can-we-help{
+    overflow: hidden;
+}
+ .can-we-help .yellow-part1 {
+    position: relative;
+    top: 37px;
+    left: 47%;
+} 
+.sign-up.text-white {
+	margin: 44px 114px;
+}
+.form-style {
+    position: relative;
+  
+}
+.form-style .form-control {
+	background: transparent;
+	/* border: 1px solid #ccc; */
+	/* display: flex; */
+	align-self: px;
+	max-width: 75%;
+	height: 45px;
+	/* margin-top: 63px; */
+	/* margin-left: -62px; */
+	opacity: .3;
+	line-height: 12px;
+	position: absolute;
+	top: 54px;
+}
+ .recent-projects{
+    background: #f8f9fa;
+    padding: 90px 0px;
+} 
+.recent-projects .recent-project {}
+.recent-projects .recent-project  .recent-project-image{}
+.recent-projects .recent-project img {
+}
+.recent-projects .recent-project-text { }
+.recent-projects .recent-project-text h4{}
+.recent-projects .recent-project-text h6{}
+
+/* footer css start/? */
+
+.footer-section{
+    background: #000;
+    padding: 50px 0px;
+}
+.footer-section .footer-title h5{
+    border-left: 2px solid orange;
+    padding: 0px 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer-content img{
+    width: 200px;
+    margin-bottom: 15px;
+}
+.footer-list-style{}
+.footer-list-style ul{
+    list-style: none;
+}
+.footer-list-style ul li {
+    margin-left: -30px;
+    border-bottom: 1px solid #6c757d;
+}
+.footer-list-style ul li::before {
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: #6c757d;
+    margin-right: 5px;
+    
+}
+.footer-list-style ul li a{
+    text-decoration: none;
+    color: #6c757d;
+    margin-bottom: 10px;
+    display: inline-block;
+    transition: .3s;
+    padding: 3px 0px;
+}
+.footer-list-style ul li a:hover{
+    color: orange;
+}
+/* last footer? */
+
+footer{}
+footer p{}
+.footer-list{}
+.footer-list ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+}
+.footer-list ul li{}
+.footer-list ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 10px;
+}
+.footer-list ul li a:hover{
+    color: white;
+    transform: .6s;
+}
+

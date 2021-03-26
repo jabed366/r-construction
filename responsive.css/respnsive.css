@@ -1,0 +1,164 @@
+ @media (max-width:1200px) {
+    .footer-section .col-lg-4 {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .carusel-content {
+        left: 12%;
+    }
+}
+@media (max-width:1070px) {
+    .my-3.display-3.fw-bold {
+        font-size: 42px;
+    }
+    .carusel-content {
+        left: 24%;
+    }
+    header .header-address {
+        padding: .5rem .5rem;
+        box-sizing: border-box;
+    }
+}
+@media (max-width:1020px) {
+    .container{
+        max-width: 100%;
+        margin: auto;
+        width: 100%;
+    }
+}
+ @media (max-width:992px) {
+    footer p {
+        font-size: 14px;
+        text-align: center;
+    }
+    .footer-list ul {
+        justify-content: center;
+    }
+    .footer-section{
+       width: 100%;
+       margin: auto;
+    }
+    .testimonial .client {
+        box-sizing: border-box;
+        text-align: center;
+    }
+    .recent-project ul li a {
+        font-size: 11px;
+        padding: 9px 20px;
+    }
+    .my-3.display-3.fw-bold {
+        font-size: 30px;
+    }
+    .carusel-content {
+        position: absolute;
+        top: 22%;
+        left: 28%;
+    }
+    .mt-1.fw-bolder.text-white {
+        font-size: 15px;
+    }
+  
+    .form-style .form-control {
+        position: relative;
+        top: -27px;
+        left: 35px;
+    }
+
+}
+ @media (max-width:767px) {
+    header .header-address {
+        text-align: center;
+    }
+    .header-social-icon ul {
+        text-align: center !important;
+    }
+    .header-social-icon {
+        text-align: center !important;
+    }
+    .recent-project ul li:nth-child(1) a {
+        background: none;
+    }
+    .recent-project ul {
+        flex-wrap: wrap;
+    }
+    .recent-project ul li {
+        flex-grow: 0;
+    }
+    .my-3.display-3.fw-bold {
+        font-size: 17px;
+    }
+    .carusel-content.text-center.text-white h2 {
+        font-size: 16px;
+    }
+    .carusel-content.text-center.text-white button {
+        font-size: 13px;
+    }
+    .can-we-help .yellow-part1 {
+        position: relative;
+        top: 8px;
+        left: 37%;
+        padding: 4px 0px;
+    }
+}
+ @media (max-width:576px) {
+    footer p {
+        font-size: 12px;
+    }
+    .footer-list ul li a {
+        font-size: 10px;
+    }
+    .recent-project ul li a {
+        padding: 9px 20px;
+    }
+    .mt-1.fw-bolder.text-white {
+        font-size: 12px;
+        text-align: center;
+    }
+    .col-lg-6.col-md-4.col-sm-6.col-12.text-end {
+        text-align: center !important;
+        width: 46%;
+        margin: auto;
+    }
+    .btn.btn-dark {
+        font-size: 13px;
+    }
+    .construction-footer {
+        height: auto;
+    }
+    .yellow-part1.yellow-part h5 {
+        font-size: 15px;
+    }
+    .yellow-part1.yellow-part h4 {
+        font-size: 13px;
+    }
+    .sign-up.ms-5.text-white h5 {
+        font-size: 16px;
+    }
+  
+}
+ @media (max-width:430px) {
+
+    .carusel-content {
+        position: absolute;
+        top: 7%;
+        left: 23%;
+    }
+}
+ @media (max-width:410px) {
+
+    .my-3.display-3.fw-bold {
+        font-size: 10px;
+    }
+
+    .carusel-content.text-center.text-white h2 {
+        font-size: 10px;
+    }
+    .carusel-content.text-center.text-white button {
+        font-size: 10px;
+    }
+    .carusel-content {
+        position: absolute;
+        top: 8%;
+        left: 26%;
+    }
+}
